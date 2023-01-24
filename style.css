@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=Noto+Sans+Cherokee:wght@300&display=swap');
+.container{
+    margin: 33px auto;
+    background-color: #86A3B8;
+    color: white ;
+    display: flex;
+    width: 650px;
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+.score-board h1{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+     padding: 10px; ;
+     font-size: 50px;
+     color: #0A2647;
+}
+h1{
+    font-family: 'Noto Sans Cherokee', sans-serif;
+    font-size: 40px;
+    color: #3A4F7A;
+    padding-top: 30px;
+  
+}
+.guest , .home {
+  
+margin: 0px 40px;
+
+}
+.home{
+    margin-left: 20px;
+}
+#home-btn,#guest-btn{
+    width: 130px;
+    height: 110px;
+    font-size: 100px;
+    margin: 60px;
+    background-color: #EEEEEE;
+    font-family: 'IBM Plex Mono', monospace;
+   
+
+}
+.operator{
+    width: 160px;
+    height: 60px;
+    margin-right: 0;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+    
+}
+.operator button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #DDDDDD;
+    border: 2px solid #1A0000;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+}
+.operate > button:active{
+    background-color: rgba(255, 255, 255, 0.275);
+}
+.container-two{
+    margin: 33px auto;
+    background-color: #A3BB98;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 130px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+     border: 3px solid rgb(60, 60, 60);
+     border-radius: 7px;
+     padding: 20px;
+     overflow-x:auto ;
+     overflow-y: auto;
+    
+}
+#save-btn{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    position: static; 
+    margin-top: 0;
+   /* margin-left: 10px; */
+    
+    
+    
+    font-size: 20px;
+    background-color: #BFEAF5;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+  border: black;
+
+
+}
+.save-btn:active{
+    background-color: rgb(70, 80, 200);
+}
+.container-two p{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#home-count{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#guest-count{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score-Board</title>
+</head>
+<body>
+<div class="container">
+    <div class="score-board">
+        <h1>Score-Board</h1>
+    </div>
+    <div class="home">
+        <h1>HOME</h1>
+        <button id="home-btn">0</button>
+        <div class="operator">
+            <button id="btn-one" onclick="plusOne()">+1</button>
+            <button id="btn-two" onclick="PlusTwo()">+2</button>
+            <button id="btn-three" onclick="plusThree()">+3</button>
+        </div>
+    </div>
+    <div class="guest">
+        <h1>GUEST</h1>
+        <button id="guest-btn">0</button>
+        <div class="operator">
+            <button id="btn-one" onclick="guestPlusOne()">+1</button>
+            <button id="btn-two"onclick="guestPlusTwo()">+2</button>
+            <button id="btn-three" onclick="guestPlusThree()"> +3 </button>
+        </div>
+    </div>
+</div>
+    
+
+<div class="container-two">
+    <button id="save-btn" onclick="saveClick()">Save </button>
+    <p id="home-count">Home count : </p>
+    <p id="guest-count">Guest count :</p>
+</div>
+
+ 
+   <script src="app.js"></script>
+</body>
+</html>
