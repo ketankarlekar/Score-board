@@ -40,8 +40,8 @@ h1{
   
 }
 .guest , .home {
-  
-margin: 0px 40px;
+  padding-top: 20px;
+margin: 30px 40px;
 
 }
 .home{
@@ -49,10 +49,11 @@ margin: 0px 40px;
 }
 #home-btn,#guest-btn{
     width: 130px;
-    height: 110px;
+    height: 130px;
     font-size: 100px;
     margin: 60px;
-    background-color: #EEEEEE;
+    background-color: #090909;
+    color: #DC0000;
     font-family: 'IBM Plex Mono', monospace;
    
 
